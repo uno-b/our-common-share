@@ -1,12 +1,12 @@
 import React from "react"
-import styles from "./section-two.module.css"
+import styles from "./problem.module.css"
 import { motion } from "framer-motion"
 
-const SectionTwo = () => {
+const Problem = () => {
   return (
     <div className={styles.container}>
       <div data-sal="slide-up">
-        <h1 className={styles.sectionTitle}>Section Two</h1>
+        <h1 className={styles.sectionTitle}>Problem & Solution</h1>
         <div className={styles.underline}></div>
       </div>
       <ul
@@ -38,4 +38,4 @@ const SectionTwo = () => {
   )
 }
 
-export default SectionTwo
+export default Problem
