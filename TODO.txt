@@ -12,4 +12,23 @@ Add smooth animations
 
 Strapi CMS for changing data
 
-Footer
+Problem and solution section
+
+Section to introduce the opaque paper
+
+Fundraising section that's not yet available
+
+FAQ
+
+Footer (Social media icons)
+
+New page showing social media statistics
+Source: https://influencermarketinghub.com/social-media-statistics-2020
+Should be editable.
+
+
+---------------------------------- Info ---------------------------------- 
+
+
+
+asd

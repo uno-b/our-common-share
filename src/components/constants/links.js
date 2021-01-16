@@ -10,12 +10,12 @@ const data = [
   },
   {
     id: 2,
-    text: "About Us",
+    text: "Problem",
     url: "/",
   },
   {
     id: 3,
-    text: "Menu Three",
+    text: "FAQ",
     url: "/",
   },
   {
