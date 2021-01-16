@@ -1,6 +1,6 @@
 import React from "react"
-import logo from "../../assets/logo.png"
 import PageLinks from "../constants/links"
+import Logo from "./navLogo"
 import styles from "./header.module.css"
 
 const Navbar = ({ toggleSidebar }) => {
@@ -9,6 +9,7 @@ const Navbar = ({ toggleSidebar }) => {
       <div className={styles.menuContainer}>
         <PageLinks />
       </div>
+      <Logo />
     </nav>
   )
 }
