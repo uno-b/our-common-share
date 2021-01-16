@@ -2,7 +2,7 @@ import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 
-const Image = () => {
+const StarrySky = () => {
   const data = useStaticQuery(graphql`
     {
       file(relativePath: { eq: "starry-sky.jpg" }) {
@@ -18,4 +18,4 @@ const Image = () => {
   return <Img fluid={data.file.childImageSharp.fluid} alt="Starry sky" />
 }
 
-export default Image
+export default StarrySky
