@@ -8,7 +8,6 @@ import styles from "./cover.module.css"
 export default () => {
   return (
     <div className={styles.cover}>
-      <div className={styles.starrySky}></div>
       <StarrySky />
       <Particles />
       <Title />

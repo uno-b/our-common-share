@@ -30,5 +30,12 @@ module.exports = {
       },
     },
     `gatsby-plugin-scroll-reveal`,
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [`Oswald`, `Quattrocento`],
+        display: "swap",
+      },
+    },
   ],
 }

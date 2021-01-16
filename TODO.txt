@@ -1,0 +1,15 @@
+Color Palette
+
+#102544 (dark blue)
+#358681 (light blue)
+#D8E9E7 (grey)
+
+Node animation
+
+Get website data to enter
+
+Add smooth animations
+
+Strapi CMS for changing data
+
+Footer
