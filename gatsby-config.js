@@ -5,6 +5,13 @@ module.exports = {
     author: `@UnoCloud`,
   },
   plugins: [
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `assets`,
+        path: `${__dirname}/src/assets/`,
+      },
+    },
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -20,15 +27,6 @@ module.exports = {
       options: {
         fonts: [`Roboto`],
         display: "swap",
-      },
-    },
-    {
-      resolve: `gatsby-plugin-nprogress`,
-      options: {
-        // Setting a color is optional.
-        color: `tomato`,
-        // Disable the loading spinner.
-        showSpinner: true,
       },
     },
     `gatsby-plugin-scroll-reveal`,

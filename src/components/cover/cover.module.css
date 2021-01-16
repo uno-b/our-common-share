@@ -1,4 +1,4 @@
-.starry-sky {
+/* .starry-sky {
   background-image: url(./starry-sky.jpg);
   position: relative;
   background-size: cover;
@@ -11,28 +11,4 @@
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-}
-
-.earth:after {
-  position: absolute;
-  content: "";
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  box-shadow: -20px -20px 50px 2px #000 inset;
-  border-radius: 50%;
-}
-
-.earth > div {
-  width: 200%;
-  height: 100%;
-  animation: spin 120s linear alternate infinite;
-  background: url(./map.jpeg);
-  background-size: cover;
-}
-@keyframes spin {
-  to {
-    transform: translateX(-50%);
-  }
-}
+} */
