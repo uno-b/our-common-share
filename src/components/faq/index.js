@@ -17,22 +17,31 @@ const SectionTwo = () => {
           data-sal-duration="1000"
         >
           <motion.li whileHover={{ scale: 1.1 }}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. A accusamus
-            quidem saepe itaque asperiores quasi nulla incidunt ullam delectus
-            libero ut nisi, autem eum iure nihil deserunt qui. Veritatis,
-            consequatur.
+            <h2>Q: Lorem ipsum dolor sit amet consectetur adipisicing elit?</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. A
+              accusamus quidem saepe itaque asperiores quasi nulla incidunt
+              ullam delectus libero ut nisi, autem eum iure nihil deserunt qui.
+              Veritatis, consequatur.
+            </p>
           </motion.li>
           <motion.li whileHover={{ scale: 1.1 }}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. A accusamus
-            quidem saepe itaque asperiores quasi nulla incidunt ullam delectus
-            libero ut nisi, autem eum iure nihil deserunt qui. Veritatis,
-            consequatur.
+            <h2>Q: Lorem ipsum dolor sit amet consectetur adipisicing elit?</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. A
+              accusamus quidem saepe itaque asperiores quasi nulla incidunt
+              ullam delectus libero ut nisi, autem eum iure nihil deserunt qui.
+              Veritatis, consequatur.
+            </p>
           </motion.li>
           <motion.li whileHover={{ scale: 1.1, duration: 1000 }}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. A accusamus
-            quidem saepe itaque asperiores quasi nulla incidunt ullam delectus
-            libero ut nisi, autem eum iure nihil deserunt qui. Veritatis,
-            consequatur.
+            <h2>Q: Lorem ipsum dolor sit amet consectetur adipisicing elit?</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. A
+              accusamus quidem saepe itaque asperiores quasi nulla incidunt
+              ullam delectus libero ut nisi, autem eum iure nihil deserunt qui.
+              Veritatis, consequatur.
+            </p>
           </motion.li>
         </ul>
       </div>

@@ -1,5 +1,12 @@
 import React from "react"
 import { Link } from "gatsby"
+import {
+  FaHome,
+  FaCheck,
+  FaQuestion,
+  FaPhone,
+  FaDollarSign,
+} from "react-icons/fa"
 import styles from "./links.module.css"
 
 const data = [
@@ -34,7 +41,42 @@ const tempLinks = data.map(link => {
     </li>
   )
 })
-
+{
+  /*<ul className={styles.menuList}>{tempLinks}</ul>*/
+}
 export default ({ styleClass }) => {
-  return <ul className={styles.menuList}>{tempLinks}</ul>
+  return (
+    <ul className={styles.menuList}>
+      <li>
+        <button className={styles.menuItem}>
+          <FaHome />
+          Home
+        </button>
+      </li>
+      <li>
+        <button className={styles.menuItem}>
+          <FaCheck />
+          Solutions
+        </button>
+      </li>
+      <li>
+        <button className={styles.menuItem}>
+          <FaQuestion />
+          FAQ
+        </button>
+      </li>
+      <li>
+        <button className={styles.menuItem}>
+          <FaDollarSign />
+          Fundraising
+        </button>
+      </li>
+      <li>
+        <button className={styles.menuItem}>
+          <FaPhone />
+          Contact Us
+        </button>
+      </li>
+    </ul>
+  )
 }

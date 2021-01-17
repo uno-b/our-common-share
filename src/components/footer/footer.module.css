@@ -1,0 +1,26 @@
+.footer {
+  padding: 0.5rem;
+  background-color: #358681;
+}
+
+.footer h4 {
+  text-align: center;
+  padding: 0;
+  margin: 1rem;
+  color: #102544;
+}
+
+.social-links {
+  margin-top: 1rem;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-links * {
+  background-color: transparent;
+  color: #d8e9e7;
+  border: none;
+  font-size: 1.25rem;
+}
