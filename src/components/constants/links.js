@@ -7,6 +7,8 @@ import {
   FaPhone,
   FaDollarSign,
 } from "react-icons/fa"
+import scrollTo from "gatsby-plugin-smoothscroll"
+
 import styles from "./links.module.css"
 
 const data = [
@@ -48,31 +50,37 @@ export default ({ styleClass }) => {
   return (
     <ul className={styles.menuList}>
       <li>
-        <button className={styles.menuItem}>
+        <button className={styles.menuItem} onClick={() => scrollTo("#home")}>
           <FaHome />
           Home
         </button>
       </li>
       <li>
-        <button className={styles.menuItem}>
+        <button className={styles.menuItem} onClick={() => scrollTo("#about")}>
           <FaCheck />
-          Solutions
+          About
         </button>
       </li>
       <li>
-        <button className={styles.menuItem}>
+        <button className={styles.menuItem} onClick={() => scrollTo("#faq")}>
           <FaQuestion />
           FAQ
         </button>
       </li>
       <li>
-        <button className={styles.menuItem}>
+        <button
+          className={styles.menuItem}
+          onClick={() => scrollTo("#fundraising")}
+        >
           <FaDollarSign />
           Fundraising
         </button>
       </li>
       <li>
-        <button className={styles.menuItem}>
+        <button
+          className={styles.menuItem}
+          onClick={() => scrollTo("#contact")}
+        >
           <FaPhone />
           Contact Us
         </button>

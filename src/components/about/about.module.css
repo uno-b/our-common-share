@@ -40,6 +40,7 @@
 
 .item .info {
   margin: 5rem;
+  color: #102544;
 }
 
 .item img {
@@ -53,4 +54,10 @@
   display: block;
   margin: auto;
   border-radius: 1rem;
+  transition-duration: 0.2s;
+}
+
+.read-more:hover {
+  background-color: #102544;
+  color: #d8e9e7;
 }

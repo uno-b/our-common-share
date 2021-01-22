@@ -23,6 +23,7 @@ const Slider = () => {
 
   return (
     <>
+      <div id="home" />
       <div className={styles.container}>
         <BackgroundSlider query={query} />
       </div>

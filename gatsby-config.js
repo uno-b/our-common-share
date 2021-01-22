@@ -44,12 +44,6 @@ module.exports = {
         display: "swap",
       },
     },
-    {
-      resolve: "gatsby-plugin-page-progress",
-      options: {
-        height: 2,
-        color: `#102544`,
-      },
-    },
+    `gatsby-plugin-smoothscroll`,
   ],
 }
