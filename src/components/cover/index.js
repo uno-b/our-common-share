@@ -10,9 +10,7 @@ import styles from "./cover.module.css"
 export default () => {
   return (
     <div className={styles.cover}>
-      <StarrySky />
-      <Logo />
-      <Particles />
+      {/* Starry Sky, Logo and Particles can be added*/}
       <Title />
       <Button />
     </div>

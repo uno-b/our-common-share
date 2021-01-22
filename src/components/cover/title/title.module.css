@@ -11,11 +11,6 @@
   background-clip: padding-box;
   box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
   transition-duration: 0.5s;
-  z-index: 3;
-}
-
-.title-container:hover {
-  backdrop-filter: blur(0px);
 }
 
 .title-container h1 {

@@ -7,9 +7,10 @@
   margin: auto;
   background-color: transparent;
   background-color: #d8e9e7b3;
-  backdrop-filter: blur(8px);
+  backdrop-filter: blur(20px);
   background-clip: padding-box;
   box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
+  z-index: 1;
 }
 
 @media screen and (max-width: 1100px) {

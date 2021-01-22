@@ -4,6 +4,12 @@ Color Palette
 #358681 (light blue)
 #D8E9E7 (grey)
 
+
+
+---------------------------------- Info ---------------------------------- 
+
+
+
 Node animation
 
 Get website data to enter
@@ -18,9 +24,9 @@ Section to introduce the opaque paper
 
 Fundraising section that's not yet available
 
-FAQ
+Link social media icons
 
-Footer (Social media icons)
+Add shadows to cards
 
 New page showing social media statistics
 Source: https://influencermarketinghub.com/social-media-statistics-2020

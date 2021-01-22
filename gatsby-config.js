@@ -12,6 +12,13 @@ module.exports = {
         path: `${__dirname}/src/assets/`,
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `backgrounds`,
+        path: `${__dirname}/src/images/slider`, // wherever background images are stored
+      },
+    },
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -35,6 +42,13 @@ module.exports = {
       options: {
         fonts: [`Oswald`, `Quattrocento`],
         display: "swap",
+      },
+    },
+    {
+      resolve: "gatsby-plugin-page-progress",
+      options: {
+        height: 2,
+        color: `#102544`,
       },
     },
   ],
