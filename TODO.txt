@@ -26,8 +26,6 @@ Fundraising section that's not yet available
 
 Link social media icons
 
-Add shadows to cards
-
 New page showing social media statistics
 Source: https://influencermarketinghub.com/social-media-statistics-2020
 Should be editable.
