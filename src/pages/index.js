@@ -4,7 +4,6 @@ import Layout from "../components/layout"
 import Slider from "../components/slider"
 import Cover from "../components/cover"
 import About from "../components/about"
-import Problem from "../components/problem"
 import FAQ from "../components/faq"
 import Fundraising from "../components/fundraising"
 
@@ -14,7 +13,6 @@ const IndexPage = () => {
       <Slider />
       <Cover />
       <About />
-      <Problem />
       <FAQ />
       <Fundraising />
     </Layout>
