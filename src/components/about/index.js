@@ -1,9 +1,9 @@
 import React from "react"
 import { motion } from "framer-motion"
 
-import img1 from "../../images/social-media.jpg"
-import img2 from "../../images/nodes.jpg"
-import img3 from "../../images/get-paid.jpg"
+import img1 from "../../images/social-media.webp"
+import img2 from "../../images/nodes.webp"
+import img3 from "../../images/get-paid.webp"
 import styles from "./about.module.css"
 
 const About = () => {
