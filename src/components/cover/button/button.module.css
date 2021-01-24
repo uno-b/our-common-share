@@ -9,7 +9,7 @@
   width: 80px;
   height: 40px;
   transition-duration: 0.3s;
-  border-radius: 1rem;
+  border-radius: 8px;
 }
 
 .button:hover {

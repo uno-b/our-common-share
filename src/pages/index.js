@@ -6,6 +6,7 @@ import Cover from "../components/cover"
 import About from "../components/about"
 import FAQ from "../components/faq"
 import Fundraising from "../components/fundraising"
+import Contact from "../components/contact"
 
 const IndexPage = () => {
   return (
@@ -15,6 +16,7 @@ const IndexPage = () => {
       <About />
       <FAQ />
       <Fundraising />
+      <Contact />
     </Layout>
   )
 }

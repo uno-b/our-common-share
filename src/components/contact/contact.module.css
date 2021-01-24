@@ -10,7 +10,6 @@
   margin: auto;
   padding-top: 0.1rem;
   padding-bottom: 3rem;
-  color: #d8e9e7;
 }
 
 .section-title {
@@ -24,20 +23,4 @@
   margin: -1rem auto 0 auto;
   border-top: 3px solid #d8e9e7;
   width: 100px;
-}
-
-.list {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  list-style-type: none;
-  margin-top: 7%;
-}
-
-.list li {
-  background-color: #d8e9e7;
-  padding: 5rem;
-  margin: 2rem;
-  border-radius: 3rem;
-  color: #102544;
 }

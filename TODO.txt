@@ -8,7 +8,9 @@ Color Palette
 
 ---------------------------------- Info ---------------------------------- 
 
+Add infinite button animation to cover page
 
+reveal animation to elements
 
 Node animation
 

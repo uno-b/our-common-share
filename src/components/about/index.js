@@ -25,6 +25,7 @@ const About = () => {
               Both social media (Twitter, Facebook) do things to maximize
               "stickiness".
             </p>
+            <button>Continue</button>
           </div>
         </div>
         <div className={styles.item}>
@@ -37,6 +38,7 @@ const About = () => {
               their own beautiful space with AI support. + copyright protection
               for user content.
             </p>
+            <button>Continue</button>
           </div>
           <img src={img2} alt="Social Media" />
         </div>
@@ -51,6 +53,7 @@ const About = () => {
               features + granular customizability, full user control over
               ad-push and data sharing plus user designated communities.
             </p>
+            <button>Continue</button>
           </div>
         </div>
         <button className={styles.readMore}>Read more</button>
