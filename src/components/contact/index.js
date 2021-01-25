@@ -8,7 +8,7 @@ const Contact = () => {
       <div id="contact" />
       <div className={styles.container}>
         <div className={styles.wrapper}>
-          <div data-sal="slide-up">
+          <div data-sal="slide-up" data-sal-duration="700">
             <h1 className={styles.sectionTitle}>Contact Us</h1>
             <div className={styles.underline} />
             <p>
@@ -18,7 +18,12 @@ const Contact = () => {
               perferendis earum repudiandae. Iusto, necessitatibus tempore.
             </p>
           </div>
-          <div className={styles.socialLinks}>
+          <div
+            className={styles.socialLinks}
+            data-sal="slide-up"
+            data-sal-duration="700"
+            data-sal-delay="500"
+          >
             <button>
               <FaFacebookF />
             </button>
