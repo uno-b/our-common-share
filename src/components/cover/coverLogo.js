@@ -22,7 +22,7 @@ const Logo = () => {
         left: `0`,
         top: `0`,
         width: `500px`,
-        zIndex: `5`,
+        zIndex: `100`,
       }}
     >
       <Img fluid={data.file.childImageSharp.fluid} alt="Logo" />

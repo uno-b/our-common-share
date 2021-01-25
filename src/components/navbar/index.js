@@ -2,15 +2,15 @@ import React from "react"
 
 import PageLinks from "../constants/links"
 import Logo from "./navLogo"
-import styles from "./header.module.css"
+import styles from "./navbar.module.css"
 
-const Navbar = ({ toggleSidebar }) => {
+const Navbar = () => {
   return (
     <nav className={styles.navbar}>
+      <Logo />
       <div className={styles.menuContainer}>
         <PageLinks />
       </div>
-      <Logo />
     </nav>
   )
 }

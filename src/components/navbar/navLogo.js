@@ -21,8 +21,8 @@ const Logo = () => {
         position: `fixed`,
         left: `50px`,
         top: `0`,
-        width: `150px`,
-        zIndex: `0`,
+        width: `140px`,
+        zIndex: `2`,
       }}
     >
       <Img fluid={data.file.childImageSharp.fluid} alt="Logo" />

@@ -1,6 +1,6 @@
 import React from "react"
 import styles from "./contact.module.css"
-import { motion } from "framer-motion"
+import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa"
 
 const Contact = () => {
   return (
@@ -17,6 +17,17 @@ const Contact = () => {
               blanditiis impedit facilis quae officiis doloribus ab suscipit
               perferendis earum repudiandae. Iusto, necessitatibus tempore.
             </p>
+          </div>
+          <div className={styles.socialLinks}>
+            <button>
+              <FaFacebookF />
+            </button>
+            <button>
+              <FaTwitter />
+            </button>
+            <button>
+              <FaInstagram />
+            </button>
           </div>
         </div>
       </div>

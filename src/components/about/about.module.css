@@ -1,26 +1,25 @@
 .container {
   width: 80%;
-  margin: 10rem auto;
+  margin: 7rem auto;
 }
 
 .section-title {
-  margin-top: 10%;
   font-size: 3rem;
   text-align: center;
   font-family: "Oswald";
-  color: #102544;
+  color: #0d0a0b;
 }
 
 .underline {
-  margin: -1rem auto 0 auto;
-  border-top: 3px solid #102544;
+  margin: -1rem auto 7rem auto;
+  border-top: 3px solid #0d0a0b;
   width: 100px;
 }
 
 .item {
   display: flex;
   flex-direction: row;
-  background-color: #358681;
+  background-color: #0d0a0b;
   margin: 5rem auto;
   width: 60vw;
   border-radius: 1em;
@@ -40,11 +39,16 @@
 
 .item .info button {
   padding: 1rem;
-  background-color: #102544;
-  color: #d8e9e7;
+  background-color: #72b01d;
+  color: #0d0a0b;
   border: none;
   border-radius: 8px;
-  margin-top: 2rem;
+  margin-top: 1rem;
+  transition-duration: 0.2s;
+}
+
+.item .info button:hover {
+  background-color: #3f7d20;
 }
 
 .item img {
@@ -60,9 +64,12 @@
   border-radius: 1rem;
   transition-duration: 0.2s;
   font-weight: bold;
+  background-color: #0d0a0b;
+  color: #f3eff5;
+  font-size: 1.5rem;
 }
 
 .read-more:hover {
-  background-color: #102544;
-  color: #d8e9e7;
+  background-color: #454955;
+  color: #f3eff5;
 }

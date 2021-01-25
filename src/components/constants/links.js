@@ -51,19 +51,16 @@ export default ({ styleClass }) => {
     <ul className={styles.menuList}>
       <li>
         <button className={styles.menuItem} onClick={() => scrollTo("#home")}>
-          <FaHome />
           Home
         </button>
       </li>
       <li>
         <button className={styles.menuItem} onClick={() => scrollTo("#about")}>
-          <FaCheck />
           About
         </button>
       </li>
       <li>
         <button className={styles.menuItem} onClick={() => scrollTo("#faq")}>
-          <FaQuestion />
           FAQ
         </button>
       </li>
@@ -72,7 +69,6 @@ export default ({ styleClass }) => {
           className={styles.menuItem}
           onClick={() => scrollTo("#fundraising")}
         >
-          <FaDollarSign />
           Fundraising
         </button>
       </li>
@@ -81,7 +77,6 @@ export default ({ styleClass }) => {
           className={styles.menuItem}
           onClick={() => scrollTo("#contact")}
         >
-          <FaPhone />
           Contact Us
         </button>
       </li>

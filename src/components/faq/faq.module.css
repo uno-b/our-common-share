@@ -1,28 +1,25 @@
 .container {
   width: 100%;
   margin: 0 auto;
-  padding: 10rem 0;
-  background-color: #102544;
+  padding: 7rem 0;
+  background-color: #72b01d;
 }
 
 .wrapper {
   width: 80%;
   margin: auto;
-  padding-top: 0.1rem;
-  padding-bottom: 3rem;
-  color: #d8e9e7;
 }
 
 .section-title {
   font-size: 3rem;
   text-align: center;
   font-family: "Oswald";
-  color: #d8e9e7;
+  color: #f3eff5;
 }
 
 .underline {
   margin: -1rem auto 0 auto;
-  border-top: 3px solid #d8e9e7;
+  border-top: 3px solid #f3eff5;
   width: 100px;
 }
 
@@ -35,9 +32,10 @@
 }
 
 .list li {
-  background-color: #d8e9e7;
+  width: 45vw;
+  background-color: #f3eff5;
   padding: 5rem;
-  margin: 2rem;
+  margin: 2rem auto 2rem auto;
   border-radius: 3rem;
-  color: #102544;
+  color: #454955;
 }
