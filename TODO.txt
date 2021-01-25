@@ -3,8 +3,7 @@
 
 Add infinite button animation to cover page
 
-reveal animation to elements
-
+scroll animation at top right or bottom right. Fixed position.
 Node animation
 
 Get website data to enter
@@ -13,11 +12,9 @@ Add smooth animations
 
 Strapi CMS for changing data
 
-Problem and solution section
+Problem and solution page
 
 Section to introduce the opaque paper
-
-Fundraising section that's not yet available
 
 Link social media icons
 
@@ -29,5 +26,3 @@ Should be editable.
 ---------------------------------- Info ---------------------------------- 
 
 
-
-asd
