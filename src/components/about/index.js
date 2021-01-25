@@ -15,7 +15,11 @@ const About = () => {
           <h1 className={styles.sectionTitle}>About</h1>
           <div className={styles.underline}></div>
         </div>
-        <div className={styles.item}>
+        <div
+          className={styles.item}
+          data-sal="slide-up"
+          data-sal-duration="700"
+        >
           <img src={img1} alt="Social Media" />
           <div className={styles.info}>
             <h2>Why a new social space?</h2>
@@ -28,7 +32,11 @@ const About = () => {
             <button>Continue</button>
           </div>
         </div>
-        <div className={styles.item}>
+        <div
+          className={styles.item}
+          data-sal="slide-up"
+          data-sal-duration="700"
+        >
           <div className={styles.info}>
             <h2>Tokenized Trust</h2>
             <p>
@@ -42,7 +50,11 @@ const About = () => {
           </div>
           <img src={img2} alt="Social Media" />
         </div>
-        <div className={styles.item}>
+        <div
+          className={styles.item}
+          data-sal="slide-up"
+          data-sal-duration="700"
+        >
           <img src={img3} alt="Social Media" />
           <div className={styles.info}>
             <h2>Respect and Empowerment</h2>

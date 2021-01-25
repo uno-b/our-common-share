@@ -5,8 +5,7 @@
   width: 100%;
   justify-content: end;
   margin: auto;
-  background-color: transparent;
-  background-color: #d8e9e7b3;
+  background-color: #f3eff59a;
   backdrop-filter: blur(20px);
   background-clip: padding-box;
   box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);

@@ -67,6 +67,7 @@
   background-color: #0d0a0b;
   color: #f3eff5;
   font-size: 1.5rem;
+  transition-duration: 0.2s;
 }
 
 .read-more:hover {

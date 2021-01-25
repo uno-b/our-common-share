@@ -11,7 +11,7 @@
   text-decoration: none;
   background-color: transparent;
   border: none;
-  color: #102544;
+  color: #454955;
   font-size: 1.2rem;
   transition-duration: 0.3s;
   padding: 1rem 2rem 1rem 2rem;
@@ -19,8 +19,8 @@
 }
 
 .menu-item:hover {
-  background-color: #102544;
-  color: #d8e9e7;
+  background-color: #454955;
+  color: #f3eff5;
 }
 
 .menu-item * {

@@ -12,13 +12,12 @@ const FAQ = () => {
             <h1 className={styles.sectionTitle}>FAQ</h1>
             <div className={styles.underline}></div>
           </div>
-          <ul
-            className={styles.list}
-            data-sal="slide-up"
-            data-sal-delay="200"
-            data-sal-duration="1000"
-          >
-            <motion.li whileHover={{ scale: 1.05 }}>
+          <ul className={styles.list}>
+            <motion.li
+              data-sal="slide-up"
+              data-sal-duration="700"
+              whileHover={{ scale: 1.05 }}
+            >
               <h2>
                 Q: Lorem ipsum dolor sit amet consectetur adipisicing elit?
               </h2>
@@ -29,7 +28,11 @@ const FAQ = () => {
                 qui. Veritatis, consequatur.
               </p>
             </motion.li>
-            <motion.li whileHover={{ scale: 1.05 }}>
+            <motion.li
+              data-sal="slide-up"
+              data-sal-duration="700"
+              whileHover={{ scale: 1.05 }}
+            >
               <h2>
                 Q: Lorem ipsum dolor sit amet consectetur adipisicing elit?
               </h2>
@@ -40,7 +43,11 @@ const FAQ = () => {
                 qui. Veritatis, consequatur.
               </p>
             </motion.li>
-            <motion.li whileHover={{ scale: 1.05 }}>
+            <motion.li
+              data-sal="slide-up"
+              data-sal-duration="700"
+              whileHover={{ scale: 1.05 }}
+            >
               <h2>
                 Q: Lorem ipsum dolor sit amet consectetur adipisicing elit?
               </h2>
