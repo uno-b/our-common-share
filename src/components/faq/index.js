@@ -1,8 +1,23 @@
 import React from "react"
+
+import Item from "./item"
 import styles from "./faq.module.css"
-import { motion } from "framer-motion"
+import { AnimateSharedLayout } from "framer-motion"
 
 const FAQ = () => {
+  const faq1 = [
+    "Q: Lorem ipsum dolor sit amet consectetur adipisicing elit?",
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. A accusamus quidem saepe itaque asperiores quasi nulla incidunt ullam delectus libero ut nisi, autem eum iure nihil deserunt qui. Veritatis, consequatur.",
+  ]
+  const faq2 = [
+    "Q: Lorem ipsum dolor sit amet consectetur adipisicing elit?",
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. A accusamus quidem saepe itaque asperiores quasi nulla incidunt ullam delectus libero ut nisi, autem eum iure nihil deserunt qui. Veritatis, consequatur.",
+  ]
+  const faq3 = [
+    "Q: Lorem ipsum dolor sit amet consectetur adipisicing elit?",
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. A accusamus quidem saepe itaque asperiores quasi nulla incidunt ullam delectus libero ut nisi, autem eum iure nihil deserunt qui. Veritatis, consequatur.",
+  ]
+
   return (
     <>
       <div id="faq" />
@@ -12,53 +27,13 @@ const FAQ = () => {
             <h1 className={styles.sectionTitle}>FAQ</h1>
             <div className={styles.underline}></div>
           </div>
-          <ul className={styles.list}>
-            <motion.li
-              data-sal="slide-up"
-              data-sal-duration="700"
-              whileHover={{ scale: 1.05 }}
-            >
-              <h2>
-                Q: Lorem ipsum dolor sit amet consectetur adipisicing elit?
-              </h2>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. A
-                accusamus quidem saepe itaque asperiores quasi nulla incidunt
-                ullam delectus libero ut nisi, autem eum iure nihil deserunt
-                qui. Veritatis, consequatur.
-              </p>
-            </motion.li>
-            <motion.li
-              data-sal="slide-up"
-              data-sal-duration="700"
-              whileHover={{ scale: 1.05 }}
-            >
-              <h2>
-                Q: Lorem ipsum dolor sit amet consectetur adipisicing elit?
-              </h2>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. A
-                accusamus quidem saepe itaque asperiores quasi nulla incidunt
-                ullam delectus libero ut nisi, autem eum iure nihil deserunt
-                qui. Veritatis, consequatur.
-              </p>
-            </motion.li>
-            <motion.li
-              data-sal="slide-up"
-              data-sal-duration="700"
-              whileHover={{ scale: 1.05 }}
-            >
-              <h2>
-                Q: Lorem ipsum dolor sit amet consectetur adipisicing elit?
-              </h2>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. A
-                accusamus quidem saepe itaque asperiores quasi nulla incidunt
-                ullam delectus libero ut nisi, autem eum iure nihil deserunt
-                qui. Veritatis, consequatur.
-              </p>
-            </motion.li>
-          </ul>
+          <AnimateSharedLayout>
+            <ul layout className={styles.list}>
+              <Item question={faq1[0]} answer={faq1[1]} />
+              <Item question={faq2[0]} answer={faq2[1]} />
+              <Item question={faq3[0]} answer={faq3[1]} />
+            </ul>
+          </AnimateSharedLayout>
         </div>
       </div>
     </>

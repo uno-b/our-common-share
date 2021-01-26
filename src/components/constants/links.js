@@ -1,52 +1,9 @@
 import React from "react"
-import { Link } from "gatsby"
-import {
-  FaHome,
-  FaCheck,
-  FaQuestion,
-  FaPhone,
-  FaDollarSign,
-} from "react-icons/fa"
 import scrollTo from "gatsby-plugin-smoothscroll"
 
 import styles from "./links.module.css"
 
-const data = [
-  {
-    id: 1,
-    text: "Home",
-    url: "/",
-  },
-  {
-    id: 2,
-    text: "Problem",
-    url: "/",
-  },
-  {
-    id: 3,
-    text: "FAQ",
-    url: "/",
-  },
-  {
-    id: 4,
-    text: "Contact Us",
-    url: "/",
-  },
-]
-
-const tempLinks = data.map(link => {
-  return (
-    <li key={link.id}>
-      <Link to={link.url} className={styles.menuItem}>
-        {link.text}
-      </Link>
-    </li>
-  )
-})
-{
-  /*<ul className={styles.menuList}>{tempLinks}</ul>*/
-}
-export default ({ styleClass }) => {
+export default () => {
   return (
     <ul className={styles.menuList}>
       <li>
