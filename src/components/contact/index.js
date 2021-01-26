@@ -25,13 +25,13 @@ const Contact = () => {
             data-sal-delay="500"
           >
             <button>
-              <FaFacebookF />
+              <FaFacebookF className={styles.icon} />
             </button>
             <button>
-              <FaTwitter />
+              <FaTwitter className={styles.icon} />
             </button>
             <button>
-              <FaInstagram />
+              <FaInstagram className={styles.icon} />
             </button>
           </div>
         </div>
