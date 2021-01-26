@@ -8,6 +8,7 @@ import styles from "./button.module.css"
 const Button = () => {
   return (
     <motion.button
+      aria-label="Go to About section"
       animate={{ scale: 1.2, transition: { yoyo: Infinity } }}
       className={styles.button}
       onClick={() => scrollTo("#about")}

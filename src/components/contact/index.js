@@ -24,13 +24,13 @@ const Contact = () => {
             data-sal-duration="700"
             data-sal-delay="500"
           >
-            <button>
+            <button aria-label="Facebook">
               <FaFacebookF className={styles.icon} />
             </button>
-            <button>
+            <button aria-label="Twitter">
               <FaTwitter className={styles.icon} />
             </button>
-            <button>
+            <button aria-label="Instagram">
               <FaInstagram className={styles.icon} />
             </button>
           </div>
