@@ -12,7 +12,7 @@ const Slider = () => {
         nodes {
           relativePath
           childImageSharp {
-            fluid(maxWidth: 4000, quality: 100) {
+            fluid(maxWidth: 1000, quality: 100) {
               ...GatsbyImageSharpFluid
             }
           }
