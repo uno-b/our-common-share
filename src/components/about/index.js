@@ -35,6 +35,7 @@ const About = () => {
           data-sal="slide-up"
           data-sal-duration="700"
         >
+          <img src={img2} alt="Social Media" />
           <div className={styles.info}>
             <h2>Tokenized Trust</h2>
             <p>
@@ -46,7 +47,6 @@ const About = () => {
             </p>
             <button>Continue</button>
           </div>
-          <img src={img2} alt="Social Media" />
         </div>
         <div
           className={styles.item}

@@ -29,14 +29,26 @@
   font-family: "Quattrocento";
 }
 
-@media screen and (max-width: 1100px) {
-  h1 {
-    font-size: 3rem;
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .title-container h1 {
+    font-size: 6vw;
+  }
+
+  .title-container p {
+    display: none;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .title-container p {
+    display: none;
   }
 }
 
-@media screen and (max-width: 832px) {
-  h1 {
-    font-size: 7vw;
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .title-container p {
+    display: block;
   }
 }
