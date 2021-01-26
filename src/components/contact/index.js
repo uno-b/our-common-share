@@ -13,9 +13,7 @@ const Contact = () => {
             <div className={styles.underline} />
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
-              laboriosam eum quibusdam? Eligendi, error quibusdam nesciunt
-              blanditiis impedit facilis quae officiis doloribus ab suscipit
-              perferendis earum repudiandae. Iusto, necessitatibus tempore.
+              laboriosam eum quibusdam?
             </p>
           </div>
           <div
