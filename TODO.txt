@@ -1,16 +1,8 @@
 
 ---------------------------------- Info ---------------------------------- 
-
-Add infinite button animation to cover page
-
-scroll animation at top right or bottom right. Fixed position.
 Node animation
 
 Get website data to enter
-
-Add smooth animations
-
-Strapi CMS for changing data
 
 Problem and solution page
 
