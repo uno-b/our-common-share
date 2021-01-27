@@ -12,7 +12,11 @@ import Contact from "../components/contact"
 const IndexPage = () => {
   return (
     <Layout>
-      <Helmet>
+      <Helmet
+        htmlAttributes={{
+          lang: "en",
+        }}
+      >
         <title>
           Our Common Share | The Next Generation Social Media Platform
         </title>
