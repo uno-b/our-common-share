@@ -20,6 +20,7 @@ const FAQ = () => {
 
   return (
     <>
+      <div className={styles.shapeTop} />
       <div id="faq" />
       <div className={styles.container}>
         <div className={styles.wrapper}>
@@ -36,6 +37,7 @@ const FAQ = () => {
           </AnimateSharedLayout>
         </div>
       </div>
+      <div className={styles.shapeBottom} />
     </>
   )
 }

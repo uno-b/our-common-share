@@ -11,7 +11,7 @@
   text-decoration: none;
   background-color: transparent;
   border: none;
-  color: #454955;
+  color: white;
   font-size: 1.2rem;
   transition-duration: 0.3s;
   padding: 1rem 2rem 1rem 2rem;
@@ -19,7 +19,7 @@
 }
 
 .menu-item:hover {
-  background-color: #454955;
+  background-color: #801336;
   color: #f3eff5;
 }
 

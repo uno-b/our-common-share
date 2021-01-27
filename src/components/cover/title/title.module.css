@@ -3,7 +3,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background: #f3eff5c4;
+  background: #2d142cbb;
   padding: 5rem;
   border-radius: 3rem;
   backdrop-filter: blur(20px);
@@ -16,14 +16,14 @@
 .title-container h1 {
   font-size: 4vw;
   text-align: center;
-  color: #3f7d20;
+  color: white;
   padding: 0;
   margin: 0;
   font-family: "Oswald";
 }
 
 .title-container p {
-  color: #454955;
+  color: white;
   margin: 2rem;
   font-size: 1.2rem;
   font-family: "Quattrocento";

@@ -6,6 +6,7 @@ const Contact = () => {
   return (
     <>
       <div id="contact" />
+      <div className={styles.shapeTop} />
       <div className={styles.container}>
         <div className={styles.wrapper}>
           <div data-sal="slide-up" data-sal-duration="700">

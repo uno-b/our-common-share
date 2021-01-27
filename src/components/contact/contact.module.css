@@ -2,25 +2,26 @@
   width: 100%;
   margin: 0 auto;
   padding: 7rem 0;
-  background-color: #72b01d;
+  background: linear-gradient(90deg, #2d142c, #ee4540);
 }
 
 .wrapper {
   width: 80%;
   margin: auto;
+  color: white;
 }
 
 .section-title {
   font-size: 3rem;
   text-align: center;
   font-family: "Oswald";
-  color: #0d0a0b;
+  color: white;
 }
 
 .underline {
   margin: -1rem auto 0 auto;
-  border-top: 3px solid #0d0a0b;
-  width: 100px;
+  border-top: 3px solid white;
+  width: 50px;
 }
 
 .social-links {
@@ -38,13 +39,15 @@
 }
 
 .social-links .icon {
+  position: relative;
   color: #f3eff5;
   font-size: 2rem;
+  top: 0;
   transition-duration: 0.2s;
 }
 
 .social-links .icon:hover {
-  color: #454955;
+  top: -5px;
 }
 
 .wrapper p {
@@ -52,4 +55,12 @@
   margin: 3rem auto;
   text-align: center;
   font-size: 1.5rem;
+}
+
+.shape-top {
+  background: linear-gradient(90deg, #2d142c, #ee4540);
+  margin-bottom: -5px;
+  clip-path: polygon(0 5vw, 100% 0, 100% 100%, 0 100%);
+  height: 100px;
+  width: 100%;
 }
