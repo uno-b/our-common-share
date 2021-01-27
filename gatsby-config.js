@@ -1,9 +1,4 @@
 module.exports = {
-  siteMetadata: {
-    title: `Our Common Share`,
-    description: `Your description here.`,
-    author: `@UnoCloud`,
-  },
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
