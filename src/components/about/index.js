@@ -18,10 +18,25 @@ const About = () => {
           data-sal="slide-up"
           data-sal-duration="700"
         >
-          <img src={img1} alt="Social Media" />
+          <img
+            src={img1}
+            alt="Social Media"
+            data-sal="slide-right"
+            data-sal-duration="700"
+          />
           <div className={styles.info}>
-            <h2>Why a new social space?</h2>
-            <p>
+            <h2
+              data-sal="slide-left"
+              data-sal-duration="700"
+              data-sal-delay="200"
+            >
+              Why a new social space?
+            </h2>
+            <p
+              data-sal="slide-left"
+              data-sal-duration="700"
+              data-sal-delay="400"
+            >
               Some top founders of the first generational social media have
               admitted to their faults. People are giving up their autonomy.
               Both social media (Twitter, Facebook) do things to maximize
@@ -35,10 +50,25 @@ const About = () => {
           data-sal="slide-up"
           data-sal-duration="700"
         >
-          <img src={img2} alt="Social Media" />
+          <img
+            src={img2}
+            alt="Social Media"
+            data-sal="slide-right"
+            data-sal-duration="700"
+          />
           <div className={styles.info}>
-            <h2>Tokenized Trust</h2>
-            <p>
+            <h2
+              data-sal="slide-left"
+              data-sal-duration="700"
+              data-sal-delay="200"
+            >
+              Tokenized Trust
+            </h2>
+            <p
+              data-sal="slide-left"
+              data-sal-duration="700"
+              data-sal-delay="400"
+            >
               The world’s first token-trust empowered Social Exchange™ -and an
               entirely new vision of the social Internet. Grow user base through
               extending a "Common Share" of token ownership. Users will have
@@ -53,10 +83,25 @@ const About = () => {
           data-sal="slide-up"
           data-sal-duration="700"
         >
-          <img src={img3} alt="Social Media" />
+          <img
+            src={img3}
+            alt="Social Media"
+            data-sal="slide-right"
+            data-sal-duration="700"
+          />
           <div className={styles.info}>
-            <h2>Respect and Empowerment</h2>
-            <p>
+            <h2
+              data-sal="slide-left"
+              data-sal-duration="700"
+              data-sal-delay="200"
+            >
+              Respect and Empowerment
+            </h2>
+            <p
+              data-sal="slide-left"
+              data-sal-duration="700"
+              data-sal-delay="400"
+            >
               It will offer a better-designed and uncluttered space for users
               plus tools to help realize self-expression, communication and
               collaboration. Privacy invasion, data mining and ad push won’t be
@@ -66,7 +111,13 @@ const About = () => {
             <button>Continue</button>
           </div>
         </div>
-        <button className={styles.readMore}>Read more</button>
+        <button
+          className={styles.readMore}
+          data-sal="slide-right"
+          data-sal-duration="700"
+        >
+          Read more
+        </button>
       </div>
     </>
   )
