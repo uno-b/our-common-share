@@ -24,13 +24,6 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    {
-      resolve: `gatsby-plugin-google-fonts`,
-      options: {
-        fonts: [`Roboto`],
-        display: "swap",
-      },
-    },
     `gatsby-plugin-scroll-reveal`,
     {
       resolve: `gatsby-plugin-google-fonts`,
