@@ -12,7 +12,7 @@ const Contact = () => {
           <div data-sal="slide-up" data-sal-duration="700">
             <h1 className={styles.sectionTitle}>Contact Us</h1>
             <div className={styles.underline} />
-            <p>
+            <p data-sal="slide-up" data-sal-duration="700" data-sal-delay="500">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
               laboriosam eum quibusdam?
             </p>
@@ -21,7 +21,7 @@ const Contact = () => {
             className={styles.socialLinks}
             data-sal="slide-up"
             data-sal-duration="700"
-            data-sal-delay="500"
+            data-sal-delay="1000"
           >
             <button aria-label="Facebook">
               <FaDiscord className={styles.icon} />

@@ -2,7 +2,7 @@
   width: 100%;
   margin: 0 auto;
   padding: 7rem 0;
-  background: linear-gradient(90deg, #2d142c, #ee4540);
+  background: linear-gradient(90deg, #801336, #ee4540);
 }
 
 .wrapper {
@@ -58,7 +58,7 @@
 }
 
 .shape-top {
-  background: linear-gradient(90deg, #2d142c, #ee4540);
+  background: linear-gradient(90deg, #801336, #ee4540);
   margin-bottom: -5px;
   clip-path: polygon(0 5vw, 100% 0, 100% 100%, 0 100%);
   height: 100px;
