@@ -1,6 +1,11 @@
 import React from "react"
 import styles from "./contact.module.css"
-import { FaDiscord, FaTwitter, FaInstagram } from "react-icons/fa"
+import {
+  FaDiscord,
+  FaTwitter,
+  FaInstagram,
+  FaTelegramPlane,
+} from "react-icons/fa"
 
 const Contact = () => {
   return (
@@ -23,7 +28,7 @@ const Contact = () => {
             data-sal-duration="700"
             data-sal-delay="1000"
           >
-            <button aria-label="Facebook">
+            <button aria-label="Discord">
               <FaDiscord className={styles.icon} />
             </button>
             <button aria-label="Twitter">
@@ -31,6 +36,9 @@ const Contact = () => {
             </button>
             <button aria-label="Instagram">
               <FaInstagram className={styles.icon} />
+            </button>
+            <button aria-label="Telegram">
+              <FaTelegramPlane className={styles.icon} />
             </button>
           </div>
         </div>
