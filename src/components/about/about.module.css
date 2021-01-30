@@ -66,6 +66,10 @@
   width: 30vw;
 }
 
+.item .logo {
+  object-fit: contain;
+}
+
 .read-more {
   position: relative;
   padding: 1.5rem 3rem;
