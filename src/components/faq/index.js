@@ -1,8 +1,8 @@
 import React from "react"
+import { AnimateSharedLayout } from "framer-motion"
 
 import Item from "./item"
 import styles from "./faq.module.css"
-import { AnimateSharedLayout } from "framer-motion"
 
 const FAQ = () => {
   const faq1 = [
