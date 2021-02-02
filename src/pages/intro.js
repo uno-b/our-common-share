@@ -1,6 +1,5 @@
 import React from "react"
 
-import Fade from "react-reveal/Fade"
 import Helmet from "react-helmet"
 import Info from "../components/info"
 import Footer from "../components/footer"
