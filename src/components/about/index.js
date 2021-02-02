@@ -1,5 +1,5 @@
 import React from "react"
-import Fade from "react-reveal/fade"
+import Fade from "react-reveal/Fade"
 
 import img1 from "../../assets/logo2.png"
 import img2 from "../../images/social-media.webp"

@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import { motion, AnimatePresence } from "framer-motion"
-import Fade from "react-reveal/fade"
+import Fade from "react-reveal/Fade"
 
 const Item = ({ question, answer }) => {
   const [isOpen, setIsOpen] = useState(false)
