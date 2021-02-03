@@ -10,8 +10,8 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `backgrounds`,
-        path: `${__dirname}/src/images/slider`, // wherever background images are stored
+        name: `images`,
+        path: `${__dirname}/src/images/`,
       },
     },
     `gatsby-plugin-react-helmet`,

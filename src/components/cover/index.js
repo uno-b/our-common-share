@@ -2,13 +2,16 @@ import React from "react"
 
 import Title from "./title"
 import Button from "./button"
-import styles from "./cover.module.css"
+import StarrySky from "./starrySky"
+import Particles from "./particles"
 
 export default () => {
   return (
-    <div className={styles.cover}>
+    <>
+      <StarrySky />
+      <Particles />
       <Title />
       <Button />
-    </div>
+    </>
   )
 }

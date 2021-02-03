@@ -2,7 +2,6 @@ import React from "react"
 
 import Layout from "../components/layout"
 import Helmet from "react-helmet"
-import Slider from "../components/slider"
 import Cover from "../components/cover"
 import About from "../components/about"
 import FAQ from "../components/faq"
@@ -45,7 +44,6 @@ const IndexPage = () => {
         />
         <link rel="canonical" href="https://our-common-share.netlify.app" />
       </Helmet>
-      <Slider />
       <Cover />
       <About />
       <FAQ />
