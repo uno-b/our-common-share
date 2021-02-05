@@ -77,23 +77,6 @@ const Info = () => {
           </p>
         </div>
       </div>
-      <div className={styles.socialExchange}></div>
-      <div className={styles.toxic}>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit
-          temporibus quas distinctio, alias inventore animi reiciendis similique
-          officiis architecto, illum libero, tempora pariatur quidem
-          exercitationem unde quaerat. Quos, eum veritatis.
-        </p>
-      </div>
-      <div className={styles.socialSpace}>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit
-          temporibus quas distinctio, alias inventore animi reiciendis similique
-          officiis architecto, illum libero, tempora pariatur quidem
-          exercitationem unde quaerat. Quos, eum veritatis.
-        </p>
-      </div>
     </div>
   )
 }
