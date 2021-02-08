@@ -1,10 +1,16 @@
 import React from "react"
-import styles from "./info.module.css"
 
-const Info = () => {
+import styles from "./introInfo.module.css"
+import img1 from "../../assets/logo2.png"
+
+const IntroInfo = () => {
   return (
     <div className={styles.container}>
-      <div className={styles.intro}>
+      <img src={img1} alt="Logo" />
+      <div className={styles.info}>
+        <div className={styles.textBlock}>
+          <h1>Introduction</h1>
+        </div>
         <div className={styles.textBlock}>
           <p>
             Our Common Share™ OCS™, a revolutionary new system of social media,
@@ -42,17 +48,6 @@ const Info = () => {
         </div>
         <div className={styles.textBlock}>
           <p>
-            Traditional social networking is a system of information shared by
-            users that is used by the centralized platforms to drive traffic to
-            links that can increase profits, along with background data
-            collection. This raises issues regarding privacy, ownership of
-            information, and protection of data, that privately owned,
-            centralized systems, are not managing in a manner that respects
-            users rights to privacy.
-          </p>
-        </div>
-        <div className={styles.textBlock}>
-          <p>
             Together with the people of this world we can, and will build
             transparent social media, a real community, of actual people, and
             take back control to the user. No more big business directing the
@@ -81,4 +76,4 @@ const Info = () => {
   )
 }
 
-export default Info
+export default IntroInfo

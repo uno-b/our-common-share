@@ -1,7 +1,7 @@
 import React from "react"
 
 import Helmet from "react-helmet"
-import Info from "../components/info"
+import IntroInfo from "../components/introInfo"
 import Footer from "../components/footer"
 
 const IndexPage = () => {
@@ -40,7 +40,7 @@ const IndexPage = () => {
         />
         <link rel="canonical" href="https://our-common-share.netlify.app" />
       </Helmet>
-      <Info />
+      <IntroInfo />
       <Footer />
     </>
   )

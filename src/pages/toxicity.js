@@ -1,11 +1,12 @@
 import React from "react"
 
-import Layout from "../components/layout"
 import Helmet from "react-helmet"
+import ToxicityInfo from "../components/toxicityInfo"
+import Footer from "../components/footer"
 
 const Toxicity = () => {
   return (
-    <Layout>
+    <>
       <Helmet
         htmlAttributes={{
           lang: "en",
@@ -39,7 +40,9 @@ const Toxicity = () => {
         />
         <link rel="canonical" href="https://our-common-share.netlify.app" />
       </Helmet>
-    </Layout>
+      <ToxicityInfo />
+      <Footer />
+    </>
   )
 }
 

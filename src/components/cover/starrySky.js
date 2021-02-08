@@ -22,6 +22,7 @@ const StarrySky = () => {
         top: `0`,
         zIndex: `-1`,
       }}
+      id="home"
     >
       <Img fluid={data.file.childImageSharp.fluid} alt="Starry Sky" />
     </div>

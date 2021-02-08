@@ -6,6 +6,7 @@ import img2 from "../../images/social-media.webp"
 import img3 from "../../images/get-paid.webp"
 import img4 from "../../images/nodes.webp"
 import styles from "./about.module.css"
+import { navigate } from "gatsby"
 
 const About = () => {
   return (
@@ -35,7 +36,7 @@ const About = () => {
               </p>
             </Fade>
             <Fade right duration={1000} delay={800} distance="30px">
-              <button>Continue</button>
+              <button onClick={() => navigate("/intro")}>Continue</button>
             </Fade>
           </div>
         </div>
@@ -63,7 +64,7 @@ const About = () => {
               </p>
             </Fade>
             <Fade right duration={1000} delay={800} distance="30px">
-              <button>Continue</button>
+              <button onClick={() => navigate("/socialSpace")}>Continue</button>
             </Fade>
           </div>
         </div>
@@ -87,7 +88,9 @@ const About = () => {
               </p>
             </Fade>
             <Fade right duration={1000} delay={800} distance="30px">
-              <button>Continue</button>
+              <button onClick={() => navigate("/socialExchange")}>
+                Continue
+              </button>
             </Fade>
           </div>
         </div>
@@ -112,7 +115,7 @@ const About = () => {
               </p>
             </Fade>
             <Fade right duration={1000} delay={800} distance="30px">
-              <button>Continue</button>
+              <button onClick={() => navigate("/toxicity")}>Continue</button>
             </Fade>
           </div>
         </div>
